@@ -15,10 +15,10 @@ return {
 			skip_confirm_for_simple_edits = false,
 			prompt_save_on_select_new_entry = true,
 			view_options = {
-				show_hidden = false,
+				show_hidden = true,
 			},
-			vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory" }),
-			vim.keymap.set("n", "-", "<CMD>Oil--float<CR>", { desc = "Open parent directory" }),
+			vim.keymap.set("n", "<space>e", "<CMD>Oil<CR>", { desc = "Open parent directory" }),
+			vim.keymap.set("n", "<space>-", "<CMD>Oil--float<CR>", { desc = "Open parent directory" }),
 		})
 	end,
 }
