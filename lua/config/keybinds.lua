@@ -1,5 +1,3 @@
-vim.keymap.set("n", "<leader>cd", vim.cmd.Ex)
-
 -- NOTE: my keybinds
 vim.keymap.set("x", "<leader>p", [["_dP]])
 vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])

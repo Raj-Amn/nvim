@@ -11,10 +11,10 @@ vim.g.have_nerd_font = true
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
-vim.opt.tabstop = 2
-vim.opt.shiftwidth = 2
-vim.opt.softtabstop = 2
-vim.opt.expandtab = true
+-- vim.opt.tabstop = 2
+-- vim.opt.shiftwidth = 2
+-- vim.opt.softtabstop = 2
+-- vim.opt.expandtab = true
 
 -- Make line numbers default
 vim.o.number = true
@@ -75,7 +75,7 @@ vim.opt.listchars = { tab = "» ", trail = "·", nbsp = "␣" }
 vim.o.inccommand = "split"
 
 -- Show which line your cursor is on
-vim.o.cursorline = true
+vim.o.cursorline = false
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.o.scrolloff = 10
